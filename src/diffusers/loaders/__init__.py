@@ -50,6 +50,8 @@ if is_transformers_available():
 
         return attn_modules
 
+    _import_structure["text_encoder_attn_modules"] = ["text_encoder_attn_modules"]
+
 
 _import_structure = {}
 
