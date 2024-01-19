@@ -61,7 +61,7 @@ if is_torch_available():
         _import_structure["single_file"] = ["FromSingleFileMixin"]
         _import_structure["lora"] = ["LoraLoaderMixin", "StableDiffusionXLLoraLoaderMixin"]
         _import_structure["textual_inversion"] = ["TextualInversionLoaderMixin"]
-        _import_structure["ip_adapter"] = ["IPAdapterMixin"]
+        _import_structure["ip_adapter"] = ["IPAdapterMixin", "IPAdapterSD3Mixin"]
 
 _import_structure["peft"] = ["PeftAdapterMixin"]
 
